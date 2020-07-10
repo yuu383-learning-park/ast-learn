@@ -1,0 +1,15 @@
+{
+  "name": "starting-api",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.21",
+    "ts-node": "^8.10.2"
+  }
+}
