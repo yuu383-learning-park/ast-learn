@@ -1,6 +1,6 @@
 import * as ts from "typescript";
 
-const program = ts.createProgram(["./src/test.ts"], { noEmit: true });
+const program = ts.createProgram(["./src/cp1-5/test.ts"], { noEmit: true });
 const emitResult = program.emit();
 
 console.log(emitResult.emitSkipped);
